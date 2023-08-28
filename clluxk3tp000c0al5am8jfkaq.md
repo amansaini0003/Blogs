@@ -9,7 +9,7 @@ tags: cpp
 
 Hello learners, today in this tutorial we will learn about the **std::min\_element** method of the STL library in C++. It is practised for finding the least element in a vector, an array, or in the list. std::min\_element returns an iterator pointing to the lowest element in the list. Let’s understand this in more detail using easy and comprehensible examples.
 
-**std::min\_element** is used for finding the least element in a given range \[ first, last). By comparing the objects “&gt;”. In  the event more than one item is filled with the smallest condition, the iterator returned points to the first of such elements and In the event that the list is empty it points to the last.
+**std::min\_element** is used for finding the least element in a given range \[ first, last). By comparing the objects “&gt;”. In the event more than one item is filled with the smallest condition, the iterator returned points to the first of such elements and If the list is empty, it points to the last.
 
 It is defined in the algorithm header file as:
 
