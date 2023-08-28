@@ -1,6 +1,6 @@
 ---
 title: "std::greater in C++ with examples"
-datePublished: Mon Aug 28 2023 12:48:06 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri May 08 2020 06:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: clluvkj7d000o08kz7l06aqsg
 slug: stdgreater-in-cpp-with-examples
 tags: cpp
