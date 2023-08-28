@@ -9,7 +9,7 @@ tags: cpp
 
 Hello learners, today in this tutorial we will learn about the **make\_heap()** method of the STL library in C++. It is used to create a heap from an array or a sequence. A heap is a data structure that is used to point to the max or min element of an array or list and to make the access of that element in an O(1) time. Let’s understand this in more detail using easy and comprehensible examples.
 
- make\_heap() is used to create max-heap or min-heap from a sequence. It is defined in the algorithm header file in two ways as defined below:
+make\_heap() is used to create max-heap or min-heap from a sequence. It is defined in the algorithm header file in two ways as defined below:
 
 1. make\_heap( IteratorFirst, IteratorLast )
     
@@ -28,12 +28,11 @@ Hello learners, today in this tutorial we will learn about the **make\_heap()**
 
 In the above syntax following terms are defined below:
 
-**(First, Last):** First points to the beginning element of an array or sequence which is transformed into a heap. The range **\[first, last)**, is used to transform an array or sequence into a heap. Last Points to the next address to the last element of sequence  
-it should be converted into a heap.
+**(First, Last):** First points to the beginning element of an array or sequence which is transformed into a heap. The range **\[first, last)**, is used to transform an array or sequence into a heap. The last Points to the next address to the last element of the sequence should be converted into a heap.
 
 **Comp:** The comparison function is used to return the boolean value of each object compared. This can be a function pointer or a functional object (greater&lt;int&gt; ()), and it will not change values.
 
-Let’s take the two examples to make things more clear, by using the first syntax we create the max-heap, and by using second we will create the min-heap and in the second example we are using,  greater&lt;int&gt;() (functional object) as a comparator.
+Let’s take the two examples to make things clear, By using the first syntax we create the max-heap, and by using the second we will create the min-heap and in the second example, we are using,  greater&lt;int&gt;() (functional object) as a comparator.
 
 Here is the code:
 
